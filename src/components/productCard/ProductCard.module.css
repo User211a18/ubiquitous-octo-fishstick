@@ -1,0 +1,57 @@
+.head {
+    position: relative;
+    min-height: 10px;
+    border-radius:19px;
+}
+
+.card {
+    background: #57718a;
+    border-radius: 19px;
+    margin: 15px 0px;
+    margin-bottom: -40px;
+    margin-left: -10px;
+    margin-right: -10px;
+    width: 1250px;
+}
+
+.footer {
+    padding: 12px;
+}
+
+.name {
+    color: var(--text-color);
+    font-size: 18.214px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-decoration: none;
+}
+
+.author {
+    color: var(--text-color);
+    font-size: 16.214px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+}
+
+.add-to-cart {
+    position: absolute;
+    top: 100px;
+    right: 15px;
+    background: #fff;
+    border-radius: 50%;
+    width: 34px;
+    height: 34px;
+    border:none;
+    cursor: pointer;
+}
+
+.add-to-cart:hover {
+    background: #D4D6E0;
+}
+
+.link {
+    text-decoration: none;
+}

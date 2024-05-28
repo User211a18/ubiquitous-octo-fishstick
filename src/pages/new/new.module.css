@@ -1,0 +1,96 @@
+.item {
+    color: #FFF;
+    display: flex;
+    gap: 20px;
+    max-width: 512px;
+    margin-bottom: 27px;
+    height: 50px;
+    width: 200px;
+}
+
+.actions {
+    margin-left: auto;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    align-self: flex-start;
+}
+
+.description {
+    color: var(--text-color);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-decoration: none;
+}
+
+.name {
+    color: var(--text-color);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-decoration: none;
+    width: 270px;
+}
+
+.textarea {
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    color: var(--text-color);
+    border: 1px solid #34495E;
+    background: #34495E;
+    /* box-shadow: 15px 20px 45px 0px rgba(233, 233, 233, 0.25); */
+    border-radius: 10px;
+    padding: 20px;
+    width: 1200px;
+    height: 400px;
+}
+
+.button {
+    margin: -10px;
+    margin-top: 10px;
+}
+
+.input {
+    margin-top: 5px;
+    width: 1145px;
+}
+
+.input1 {
+    margin-top: 5px;
+}
+
+.author {
+    margin-top: 5px;
+    color: var(--text-color);
+    width: 1175px;
+}
+
+.year {
+    margin-top: 5px;
+    width: 1085px;
+}
+
+.view {
+    margin-top: 5px;
+    width: 1080px;
+}
+
+.button-container {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.success-message {
+    position: relative;
+    bottom: -20px;
+    left: 1%;
+    transform: translate(0, -50%);
+    margin-left: 10px;
+    color: var(--text-color);
+    font-weight: bold;
+    white-space: nowrap;
+}

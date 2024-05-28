@@ -1,0 +1,18 @@
+.head {
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.report {
+    margin-left: auto;
+    margin-bottom: -38px;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    gap: 9px;
+}

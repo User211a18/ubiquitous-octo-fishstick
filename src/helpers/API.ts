@@ -1,0 +1,1 @@
+export const PREFIX='http://localhost:9666/api'

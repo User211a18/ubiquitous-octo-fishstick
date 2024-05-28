@@ -1,0 +1,16 @@
+:root {
+  --font: 'Open Sans', sans-serif;
+  --primary-color: #1c334a;
+  --primary-hover-color:  #b2bfcd;
+  --white-color: #d6d5d4;
+  --text-color: #fff;
+  --text-secondary-color: #5b5B5E;
+  --separator-color: #D4D6E0;
+}
+
+body {
+  font-family: "Quicksand", sans-serif;
+  background: #374f67;
+  margin: 0;
+  text-decoration: none;
+}

@@ -1,0 +1,73 @@
+.item {
+    display: flex;
+    gap: 20px;
+    max-width: 512px;
+    margin-bottom: 27px;
+}
+
+.image {
+    width: 82px;
+    height: 82px;
+    background-size: cover;
+    border-radius: 20px;
+}
+
+.actions {
+    margin-left: auto;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    align-self: flex-start;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-decoration: none;
+}
+
+.name {
+    color: var(--text-color);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-decoration: none;
+}
+
+/* .remove {
+    background: var(--primary-color);
+    font-family: inherit;
+    cursor: pointer;
+    transition: background 0.25s;
+    border: none;
+    color: var(--white-color);
+    border-radius: 29px;
+    font-style: normal;
+    font-weight: 50;
+    font-size: 20px;
+    padding: 5px 5px; */
+/* } */
+/* .accent {
+        background: var(--primary-color);
+    }
+    
+.accent:hover {
+        background: var(--primary-hover-color);
+    } */
+
+.remove {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    background: none;
+    border: none;
+    border-radius: 50%;
+}
+
+.remove-icon {
+    width: 29px;
+    height: 29px;
+    color: #fff;
+}

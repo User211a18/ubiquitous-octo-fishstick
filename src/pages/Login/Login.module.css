@@ -1,0 +1,71 @@
+.login {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 100%;
+    max-width: 400px;
+    margin: 100px;
+    margin: 30px 100px 0px 150px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin: auto;
+    
+}
+
+.field {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    border-radius: 10px;
+    font-weight: 400;
+    border: 1px solid #34495E;
+    background: #34495E;
+    border-radius: 10px;
+    padding: 10px 15px 10px 30px;
+    min-width: 200px; 
+}
+
+.input {
+    width:  200px;
+    height: 15px;
+    padding: 5px 10px 5px 10px;
+    border:1px solid #999;
+    font-size:16px;
+}
+
+.field label {
+    color: var(--primary-hover-color);
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--primary-hover-color);
+    text-align: center;
+    font-size: 14px;;
+}
+
+.links a {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+.label1 {
+    margin: 150px 100px 0px 75px;
+}
+
+.error {
+    background: rgb(25, 27, 57);
+    color: white;
+    padding: 20px;
+    margin: 0px 75px 0px 75px;
+}
